@@ -1,0 +1,1 @@
+<img src={{ asset("./images/home/logo.png") }} {{$attributes}} alt="dental logo"/>

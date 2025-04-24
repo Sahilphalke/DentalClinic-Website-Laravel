@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Eudoxus+Sans:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --font: 'Eudoxus Sans', sans-serif;
+    --black: #000000;
+    --white: #ffffff;
+    --color1: #DBEFFA;
+    --color2: #583FBC;
+    --color3: #DBEFFA;
+    --color4: #DBDEFA;
+    --color5: #F6DBFA;
+    --color6: #FADBE2;
+    --color7: #041434;
+    --color8: #D9EBFA;
+    --textcolor: #181945;
+}
+
+
+/* navbar section start  */
+
+
+.navbar-brand {
+    color: var(--color7);
+    font-weight: 600;
+}
+
+#navbar ul {
+    gap: 50px;
+}
+
+#navbar ul li a {
+    font-family: var(--font);
+    font-size: medium;
+    color: var(--textcolor);
+}
+
+
+#navbar .btn1 {
+    color: var(--black);
+    font-family: var(--font);
+    background-color: var(--color4);
+    font-weight: 500;
+}
+
+#navbar .btn2 {
+    color: var(--black);
+    font-family: var(--font);
+    background-color: var(--color5);
+    font-weight: 500;
+}
+
+/* about us section start  */
+.aboutUs h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 53px;
+}
+
+.aboutUs p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.aboutUs .btn {
+    color: var(--white);
+    background-color: var(--color2);
+    padding: 12px 60px 12px 60px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.aboutUs .left {
+    height: 550px;
+}
+
+/* priority section start  */
+
+.priority .leftbox {
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: var(--color3);
+}
+
+.priority img {
+    border-radius: 30px;
+    top: 60px;
+    left: 70px;
+    width: 120%;
+}
+
+.priority h6 {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.priority h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.priority p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.priority .btn {
+    color: var(--white);
+    background-color: var(--color2);
+    padding: 12px 40px 12px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* safety section start  */
+
+.safety {
+    height: 800px;
+}
+
+.safety .background-box {
+    position: relative;
+    height: 550px;
+    border-radius: 30px;
+    background-color: var(--color4);
+}
+
+.safety h6 {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.safety h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.safety p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.safety img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 50%;
+}
+
+/* team section start */
+
+.team h6 {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.team h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.team p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.faq h6 {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.faq h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.footer {
+    background-color: var(--color7);
+    font-family: var(--font);
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 21px;
+}
+
+.footer p {
+    color: var(--white);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.footer i {
+    color: var(--white);
+    font-size: 22px;
+}
+
+.footer h6 {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer ul li a {
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer .box {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.footer .box i {
+    color: var(--color2);
+    background-color: var(--white);
+}
+
+.footer .bottom p {
+    font-size: medium;
+    font-weight: 200;
+    color: var(--white);
+}
+
+
+@media screen and (max-width: 600px) {
+    #navbar ul {
+        gap: 0%;
+    }
+}

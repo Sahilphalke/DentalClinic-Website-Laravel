@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Eudoxus+Sans:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --font: 'Eudoxus Sans', sans-serif;
+    --black: #000000;
+    --white: #ffffff;
+    --color1: #DBEFFA;
+    --color2: #583FBC;
+    --color3: #DBEFFA;
+    --color4: #DBDEFA;
+    --color5: #F6DBFA;
+    --color6: #FADBE2;
+    --color7: #041434;
+    --color8: #D9EBFA;
+    --textcolor: #181945;
+}
+
+
+/* navbar section start  */
+
+.navbar-brand {
+    color: var(--color7);
+    font-weight: 600;
+}
+
+#navbar ul {
+    gap: 50px;
+}
+
+#navbar ul li a {
+    font-family: var(--font);
+    font-size: medium;
+    color: var(--textcolor);
+}
+
+
+#navbar .btn1 {
+    color: var(--black);
+    font-family: var(--font);
+    background-color: var(--color4);
+    font-weight: 500;
+}
+
+#navbar .btn2 {
+    color: var(--black);
+    font-family: var(--font);
+    background-color: var(--color5);
+    font-weight: 500;
+}
+
+.blog h5 {
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.blog h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.blog p {
+    font-family: var(--font);
+    line-height: 1.8;
+    color: var(--textcolor);
+}
+
+.footer {
+    background-color: var(--color7);
+    font-family: var(--font);
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 21px;
+}
+
+.footer p {
+    color: var(--white);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.footer i {
+    color: var(--white);
+    font-size: 22px;
+}
+
+.footer h6 {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer ul li a {
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer .box {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.footer .box i {
+    color: var(--color2);
+    background-color: var(--white);
+}
+
+.footer .bottom p {
+    font-size: medium;
+    font-weight: 200;
+    color: var(--white);
+}

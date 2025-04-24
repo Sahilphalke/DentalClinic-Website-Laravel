@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Eudoxus+Sans:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --font: 'Eudoxus Sans', sans-serif;
+    --black: #000000;
+    --white: #ffffff;
+    --color1: #DBEFFA;
+    --color2: #583FBC;
+    --color3: #DBEFFA;
+    --color4: #DBDEFA;
+    --color5: #F6DBFA;
+    --color6: #FADBE2;
+    --color7: #041434;
+    --color8: #D9EBFA;
+    --textcolor: #181945;
+}
+
+
+/* navbar section start  */
+#navbar {
+    background-color: #FFFFFF4D;
+    backdrop-filter: blur(13px);
+}
+
+#navbar a {
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: var(--color7);
+}
+
+#navbar ul {
+    gap: 50px;
+}
+
+#navbar ul li a {
+    font-family: var(--font);
+    font-size: medium;
+    color: var(--textcolor);
+}
+
+
+#navbar .btn1 {
+    color: var(--black);
+    font-family: var(--font);
+    background-color: var(--color4);
+    font-weight: 600;
+}
+#navbar .btn2 {
+    color: var(--black);
+    font-family: var(--font);
+    background-color: var(--color5);
+    font-weight: 600;
+}
+
+/* hero section start  */
+
+#hero {
+    border-radius: 20px;
+    background-color: var(--color1);
+}
+
+#heroleft {
+    width: 75%;
+}
+
+
+#hero h1 {
+    font-size: 45px;
+    font-family: var(--font);
+    font-weight: 600;
+    color: var(--textcolor);
+}
+
+#hero p {
+    font-family: var(--font);
+    color: var(--textcolor);
+}
+
+#hero .bookappointment {
+    color: var(--white);
+    background-color: var(--color2);
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+#hero .blur {
+    background: rgba(255, 255, 255, 0.25);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 5px;
+}
+
+#hero a {
+    color: var(--color2);
+}
+
+#hero h6 {
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--color2);
+}
+
+#hero h5 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0.5;
+}
+
+.doctor {
+    position: absolute;
+    border-radius: 15px;
+    bottom: 100px;
+    left: 30px;
+
+}
+
+
+#hero .doctor h6 {
+    font-family: var(--font);
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#hero .doctor p {
+    line-height: 40%;
+    font-size: 15px;
+    color: lightslategray;
+}
+
+.teeth {
+    position: absolute;
+    padding: 10px 15px 10px 15px;
+    background-color: var(--color2);
+    top: 100px;
+    left: 80px;
+    rotate: -20deg;
+}
+
+.teeth i {
+    font-size: 30px;
+    color: var(--white);
+}
+
+.security {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 5px;
+    bottom: 90px;
+    right: 90px;
+    rotate: 20deg;
+}
+
+.security i {
+    font-size: 25px;
+}
+
+.circule1 {
+    position: absolute;
+    padding: 10px;
+    background-color: #7ABADD;
+    right: 50px;
+}
+
+.circule2 {
+    position: absolute;
+    padding: 6px;
+    background-color: #7b55ec;
+    right: 150px;
+    top: 100px;
+}
+
+.circule3 {
+    position: absolute;
+    padding: 5px;
+    background-color: #583FBC;
+    left: 50px;
+    bottom: 200px;
+}
+
+#about .content {
+    width: 70%;
+}
+
+
+/* about section start  */
+#about h3 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    line-height: 50px;
+}
+
+
+/* service section start  */
+
+.service h5 {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+
+.service h2 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.service p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.service .blurbox {
+    background: rgba(255, 255, 255, 0.25);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.card i {
+    color: var(--color2);
+}
+
+.card h5 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+}
+
+.card p {
+    font-family: var(--textcolor);
+    font-weight: 400;
+}
+
+/* emergency section start  */
+
+.emergency .imagebox {
+    position: relative;
+    width: 380px;
+    height: 500px;
+    background-color: var(--color1);
+    border-radius: 25px;
+}
+
+.emergency h5 {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.emergency h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.emergency p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.emergency .bookappointment {
+    color: var(--white);
+    background-color: var(--color2);
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+.fetures h5 {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.fetures h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.fetures .p1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.fetures>div {
+    padding: 70px;
+    background-color: var(--color4);
+    border-radius: 20px;
+}
+
+.fetures .blurbox {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+.fetures h4 {
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--textcolor);
+}
+
+.fetures p {
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.fetures i {
+    color: var(--color2);
+}
+
+/* expert section start  */
+.expert .imagebox {
+    position: relative;
+    width: 380px;
+    height: 500px;
+    background-color: var(--color6);
+    border-radius: 25px;
+}
+
+.expert h5 {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.expert h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.expert p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.expert ul li {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Testimonial .container {
+    padding: 70px;
+    background-color: var(--color8);
+    border-radius: 20px;
+}
+
+.Testimonial h5 {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.Testimonial h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.Testimonial p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.Testimonial .Testimonialimg {
+    width: 20%;
+    border: 5px solid var(--color8);
+    position: relative;
+    top: -35px;
+}
+
+.imgdiv {
+    height: 15%;
+}
+
+.Testimonial .card h5 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog h5 {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.blog h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.blog h6 {
+    font-family: var(--font);
+    color: var(--color2);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.blog h4 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.blog p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 100;
+    font-size: 13px;
+}
+
+/* appointment section start  */
+
+.appointment h5 {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+.appointment h1 {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.appointment p {
+    font-family: var(--font);
+    color: var(--textcolor);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.appointment label {
+    font-family: var(--font);
+    font-size: 14px;
+    color: var(--textcolor);
+}
+
+.appointment input {
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+.appointment .btn {
+    color: var(--white);
+    background-color: var(--color2);
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: var(--color7);
+    font-family: var(--font);
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 21px;
+}
+
+.footer p {
+    color: var(--white);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.footer i {
+    color: var(--white);
+    font-size: 22px;
+}
+
+.footer h6 {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer ul li a {
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer .box {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.footer .box i {
+    color: var(--color2);
+    background-color: var(--white);
+}
+
+.footer .bottom p {
+    font-size: medium;
+    font-weight: 200;
+    color: var(--white);
+}
+
+
+@media screen and (max-width: 600px) {
+    #navbar ul {
+        gap: 0%;
+    }
+
+    /* #hero .row {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    } */
+
+    #heroleft {
+        width: 100%;
+    }
+
+    #hero .teeth {
+        top: 60px;
+        left: 50px;
+    }
+
+    #hero .security {
+        right: 40px;
+    }
+
+    #hero .circule1 {
+        top: 150px;
+        right: 40px;
+    }
+
+    #hero .circule2 {
+        top: 40px;
+        right: 100px;
+    }
+
+    #hero .doctor {
+        bottom: 30px;
+        left: 10px;
+    }
+
+    #hero .circule3 {
+        bottom: 150px;
+        left: 40px;
+    }
+
+    #spacing {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .service .content {
+        padding-left: 30px;
+        padding-left: 20px;
+    }
+
+    .service .card {
+        width: 85%;
+    }
+
+    .service .col-lg-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .emergency .row {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .emergency .content {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .bottom .col-lg-6 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #about .content {
+        width: 100%;
+        text-align: center;
+    }
+}
